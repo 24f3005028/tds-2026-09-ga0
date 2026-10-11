@@ -1,0 +1,12 @@
+name: TDS assignment verification
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f3005028@ds.study.iitm.ac.in
+        run: echo "Assignment verification succeeded"
